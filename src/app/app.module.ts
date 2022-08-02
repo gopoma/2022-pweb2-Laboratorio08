@@ -22,6 +22,10 @@ const routes: Route[] = [
   {
     path: "hello",
     component: HelloWorldComponent
+  },
+  {
+    path: "posts",
+    component: PostsComponent
   }
 ]
 
