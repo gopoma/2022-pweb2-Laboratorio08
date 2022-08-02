@@ -12,6 +12,7 @@ import { PostsComponent } from './pages/posts/posts.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HelloWorldComponent } from './pages/hello-world/hello-world.component';
 import { Route, RouterModule } from '@angular/router';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 const routes: Route[] = [
   {
@@ -30,7 +31,8 @@ const routes: Route[] = [
     DataBindingComponent,
     PostsComponent,
     AboutComponent,
-    HelloWorldComponent
+    HelloWorldComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
